@@ -1,13 +1,12 @@
 # To-Do List
 
-The "To-Do List" project is a simple web application designed to help users manage their tasks efficiently.
+To-Do List is a simple web application designed to help users manage their tasks efficiently.
 
 ## Features
 
 - User-friendly interface for easy task management.
-- Ability to add, edit, and delete tasks.
+- Ability to add and delete tasks.
 - Option to mark tasks as completed.
-- Organize tasks into different categories or lists.
 - Responsive design for compatibility across different devices.
 - Easily customizable to fit into various workflows.
 
