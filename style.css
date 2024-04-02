@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(315deg, #6f86d6, #48c6ef 74%);
+    background: linear-gradient(315deg, #c3cfe2, #f5f7fa 75%);
     padding: 20px;
 }
 .todo-app{
@@ -102,8 +102,8 @@ ul li span{
     border-radius: 50%;
 }
 ul li span:hover{
-    background: hsl(220,9.1%,86%)
+    background: hsl(220,9.1%,85%)
 }
 ul li span:active{
-    background: hsl(220,9.1%,93%)
+    background: hsl(220,9.1%,90%)
 }
