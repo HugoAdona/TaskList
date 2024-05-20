@@ -33,8 +33,7 @@ To use this To-Do List application, follow these steps:
 - **Adding a Task**: Click on the "+" button or input field to add a new task.
 - **Editing a Task**: Double click on a task to edit its title.
 - **Completing a Task**: Click on the checkbox next to a task to mark it as completed.
-- **Deleting a Task**: Click on the delete button (usually represented by a trash can icon) to remove a task.
-- **Organizing Tasks**: Use categories or lists to group tasks based on their type, priority, or any other criteria.
+- **Deleting a Task**: Click on the delete button (usually represented by a "X" icon) to remove a task.
 
 ## Contributing
 
@@ -46,10 +45,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Commit your changes (`git commit -am 'Add new feature'`).
 5. Push to the branch (`git push origin feature/improvement`).
 6. Create a new Pull Request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
