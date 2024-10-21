@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
     <title>Hugo Adona - Task List</title>
-    <link rel="icon" type="image/png" href="css/images/favicon.png">
-    
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="css/style.css">
-    
+
     <!-- Preconnect to Google Fonts for performance improvement -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="css/images/favicon.png" />
+
     <!-- Link to Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="todo-app">
-            <h2><i class="fa-solid fa-list-check"></i>Task List</h2>
-            
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Enter your text here...">
-                <button onclick="addTask()">Enter</button>
-            </div>
-            
-            <ul id="list-container">
-                <!-- <li class="checked">Task 1</li>
-                 <li>Task 2</li>
-                 <li>Task 3</li> -->
-            </ul>
+      <div class="todo-app">
+        <h2><i class="fa-solid fa-list-check"></i>Task List</h2>
+
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Enter your text here..."
+          />
+          <button onclick="addTask()">Enter</button>
         </div>
+
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+<li>Task 2</li>
+<li>Task 3</li> -->
+        </ul>
+      </div>
     </div>
 
     <!-- Link to external JavaScript file -->
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
